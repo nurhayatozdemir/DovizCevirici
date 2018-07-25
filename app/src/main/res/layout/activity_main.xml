@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#DCDCDC"
+    >
+    <TextView
+        android:id="@+id/tryText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="TRY:"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:background="#A9A9A9"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/usdText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="USD:"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:background="#A9A9A9"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/jpyText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="JPY:"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:background="#A9A9A9"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/chfText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="CHF: "
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:background="#A9A9A9"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/cadText"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text=" CAD: "
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:background="#A9A9A9"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:onClick="getRates"
+        android:text="GET RATES"
+        android:textAlignment="inherit"
+        android:layout_marginLeft="40dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+</android.support.v7.widget.LinearLayoutCompat>
