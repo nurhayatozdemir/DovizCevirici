@@ -80,17 +80,12 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(String s) { //islem bittikten sonra ne olsun
             super.onPostExecute(s);
-
-            //System.out.println("alınan data" +s);
-
             try {
 
                 JSONObject jsonObject = new JSONObject(s);
                 String base = jsonObject.getString("base");
-                //System.out.println("base:" + base);
+            
                 String rates = jsonObject.getString("rates");
-                //System.out.println("rates" + rates);
-
                 JSONObject jsonObject1 = new JSONObject(rates);
                 String turkishlira = jsonObject1.getString("TRY");
                 tryText.setText("TRY:" +turkishlira);
